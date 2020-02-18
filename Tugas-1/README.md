@@ -20,6 +20,7 @@ Dengan data ini, kita dapat memperoleh:
 ## Data Understanding
 
 Data ini memiliki 7 kolom dan 2580 Baris
+
 Kolomnya berisi:
 
 ### 1. Review Number
