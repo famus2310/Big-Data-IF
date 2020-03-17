@@ -45,5 +45,21 @@ Fadhil Musaad
 
 1. Cukup jalankan workflownya dan klik execute pada end node.
 ![Workflow](image/workflow_2_1.png)
-2. Buka DBeaver dan lakukan navigasi ke table yang diinginkan.
-!
+2. Buka DBeaver masukkan konfigurasi apache Hive
+3. Masukkan query select pada dbeaver
+![ss13hme](image/ss_2_1_1.png)
+![ss13pme](image/ss_2_1_2.png)
+
+### Hive Modeling
+
+1. Cukup jalankan workflownya dan klik execute pada end node.
+![Workflow](image/workflow_2_2.png)
+2. Setelah selesai, klik kanan pada predictor dan view decision tree.
+![Decision Tree](image/ss_2_2_1.png)
+
+### Writing to DB
+
+1. Cukup jalankan workflownya dan klik execute pada end node.
+![Workflow](image/workflow_2_3.png)
+2. Jika sudah, lakukan query select table newTable pada DBeaver
+![New Table](image/ss_2_3_1.png)
