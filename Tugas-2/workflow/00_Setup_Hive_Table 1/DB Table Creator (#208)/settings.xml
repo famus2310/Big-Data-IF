@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="schema"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tableName"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="05111740000116_ss13hme"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="Schema_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Schema" type="xstring" value=""/>
+<config key="TableName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TableName" type="xstring" value="05111740000116_ss13hme"/>
+<config key="TempTable_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TempTable" type="xboolean" value="false"/>
+<config key="FailIfTableExists_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="FailIfTableExists" type="xboolean" value="false"/>
+<config key="UseDynamicSettings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="UseDynamicSettings" type="xboolean" value="true"/>
+<config key="AdditionalOptions_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="AdditionalOptions" type="xstring" value=""/>
+<config key="Keys"/>
+<config key="Columns">
+<config key="Column0">
+<entry key="columnName" type="xstring" value="insp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column1">
+<entry key="columnName" type="xstring" value="rt"/>
+<entry key="sqlType" type="xstring" value="VARCHAR"/>
+<entry key="sqlTypeString" type="xstring" value="string"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column2">
+<entry key="columnName" type="xstring" value="serialno"/>
+<entry key="sqlType" type="xstring" value="DOUBLE"/>
+<entry key="sqlTypeString" type="xstring" value="double"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column3">
+<entry key="columnName" type="xstring" value="division"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column4">
+<entry key="columnName" type="xstring" value="puma00"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column5">
+<entry key="columnName" type="xstring" value="puma10"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column6">
+<entry key="columnName" type="xstring" value="region"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column7">
+<entry key="columnName" type="xstring" value="st"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column8">
+<entry key="columnName" type="xstring" value="adjhsg"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column9">
+<entry key="columnName" type="xstring" value="adjinc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column10">
+<entry key="columnName" type="xstring" value="wgtp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column11">
+<entry key="columnName" type="xstring" value="np"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column12">
+<entry key="columnName" type="xstring" value="type"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column13">
+<entry key="columnName" type="xstring" value="acr"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column14">
+<entry key="columnName" type="xstring" value="ags"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column15">
+<entry key="columnName" type="xstring" value="bath"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column16">
+<entry key="columnName" type="xstring" value="bdsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column17">
+<entry key="columnName" type="xstring" value="bld"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column18">
+<entry key="columnName" type="xstring" value="bus"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column19">
+<entry key="columnName" type="xstring" value="conp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column20">
+<entry key="columnName" type="xstring" value="elep"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column21">
+<entry key="columnName" type="xstring" value="fs"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column22">
+<entry key="columnName" type="xstring" value="fulp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column23">
+<entry key="columnName" type="xstring" value="gasp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column24">
+<entry key="columnName" type="xstring" value="hfl"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column25">
+<entry key="columnName" type="xstring" value="mhp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column26">
+<entry key="columnName" type="xstring" value="mrgi"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column27">
+<entry key="columnName" type="xstring" value="mrgp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column28">
+<entry key="columnName" type="xstring" value="mrgt"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column29">
+<entry key="columnName" type="xstring" value="mrgx"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column30">
+<entry key="columnName" type="xstring" value="refr"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column31">
+<entry key="columnName" type="xstring" value="rmsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column32">
+<entry key="columnName" type="xstring" value="rntm"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column33">
+<entry key="columnName" type="xstring" value="rntp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column34">
+<entry key="columnName" type="xstring" value="rwat"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column35">
+<entry key="columnName" type="xstring" value="rwatpr"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column36">
+<entry key="columnName" type="xstring" value="sink"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column37">
+<entry key="columnName" type="xstring" value="smp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column38">
+<entry key="columnName" type="xstring" value="stov"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column39">
+<entry key="columnName" type="xstring" value="tel"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column40">
+<entry key="columnName" type="xstring" value="ten"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column41">
+<entry key="columnName" type="xstring" value="toil"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column42">
+<entry key="columnName" type="xstring" value="vacs"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column43">
+<entry key="columnName" type="xstring" value="valp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column44">
+<entry key="columnName" type="xstring" value="veh"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column45">
+<entry key="columnName" type="xstring" value="watp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column46">
+<entry key="columnName" type="xstring" value="ybl"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column47">
+<entry key="columnName" type="xstring" value="fes"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column48">
+<entry key="columnName" type="xstring" value="fincp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column49">
+<entry key="columnName" type="xstring" value="fparc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column50">
+<entry key="columnName" type="xstring" value="grntp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column51">
+<entry key="columnName" type="xstring" value="grpip"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column52">
+<entry key="columnName" type="xstring" value="hhl"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column53">
+<entry key="columnName" type="xstring" value="hht"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column54">
+<entry key="columnName" type="xstring" value="hincp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column55">
+<entry key="columnName" type="xstring" value="hugcl"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column56">
+<entry key="columnName" type="xstring" value="hupac"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column57">
+<entry key="columnName" type="xstring" value="hupaoc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column58">
+<entry key="columnName" type="xstring" value="huparc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column59">
+<entry key="columnName" type="xstring" value="kit"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column60">
+<entry key="columnName" type="xstring" value="lngi"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column61">
+<entry key="columnName" type="xstring" value="multg"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column62">
+<entry key="columnName" type="xstring" value="mv"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column63">
+<entry key="columnName" type="xstring" value="noc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column64">
+<entry key="columnName" type="xstring" value="npf"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column65">
+<entry key="columnName" type="xstring" value="npp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column66">
+<entry key="columnName" type="xstring" value="nr"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column67">
+<entry key="columnName" type="xstring" value="nrc"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column68">
+<entry key="columnName" type="xstring" value="ocpip"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column69">
+<entry key="columnName" type="xstring" value="partner"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column70">
+<entry key="columnName" type="xstring" value="plm"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column71">
+<entry key="columnName" type="xstring" value="psf"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column72">
+<entry key="columnName" type="xstring" value="r18"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column73">
+<entry key="columnName" type="xstring" value="r60"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column74">
+<entry key="columnName" type="xstring" value="r65"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column75">
+<entry key="columnName" type="xstring" value="resmode"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column76">
+<entry key="columnName" type="xstring" value="smocp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column77">
+<entry key="columnName" type="xstring" value="smx"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column78">
+<entry key="columnName" type="xstring" value="srnt"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column79">
+<entry key="columnName" type="xstring" value="sval"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column80">
+<entry key="columnName" type="xstring" value="taxp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column81">
+<entry key="columnName" type="xstring" value="wif"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column82">
+<entry key="columnName" type="xstring" value="wkexrel"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column83">
+<entry key="columnName" type="xstring" value="workstat"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column84">
+<entry key="columnName" type="xstring" value="facrp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column85">
+<entry key="columnName" type="xstring" value="fagsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column86">
+<entry key="columnName" type="xstring" value="fbathp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column87">
+<entry key="columnName" type="xstring" value="fbdsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column88">
+<entry key="columnName" type="xstring" value="fbldp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column89">
+<entry key="columnName" type="xstring" value="fbusp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column90">
+<entry key="columnName" type="xstring" value="fconp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column91">
+<entry key="columnName" type="xstring" value="felep"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column92">
+<entry key="columnName" type="xstring" value="ffsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column93">
+<entry key="columnName" type="xstring" value="ffulp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column94">
+<entry key="columnName" type="xstring" value="fgasp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column95">
+<entry key="columnName" type="xstring" value="fhflp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column96">
+<entry key="columnName" type="xstring" value="finsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column97">
+<entry key="columnName" type="xstring" value="fkitp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column98">
+<entry key="columnName" type="xstring" value="fmhp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column99">
+<entry key="columnName" type="xstring" value="fmrgip"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column100">
+<entry key="columnName" type="xstring" value="fmrgp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column101">
+<entry key="columnName" type="xstring" value="fmrgtp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column102">
+<entry key="columnName" type="xstring" value="fmrgxp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column103">
+<entry key="columnName" type="xstring" value="fmvp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column104">
+<entry key="columnName" type="xstring" value="fplmp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column105">
+<entry key="columnName" type="xstring" value="frefrp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column106">
+<entry key="columnName" type="xstring" value="frmsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column107">
+<entry key="columnName" type="xstring" value="frntmp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column108">
+<entry key="columnName" type="xstring" value="frntp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column109">
+<entry key="columnName" type="xstring" value="frwatp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column110">
+<entry key="columnName" type="xstring" value="frwatprp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column111">
+<entry key="columnName" type="xstring" value="fsinkp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column112">
+<entry key="columnName" type="xstring" value="fsmp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column113">
+<entry key="columnName" type="xstring" value="fsmxhp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column114">
+<entry key="columnName" type="xstring" value="fsmxsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column115">
+<entry key="columnName" type="xstring" value="fstovp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column116">
+<entry key="columnName" type="xstring" value="ftaxp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column117">
+<entry key="columnName" type="xstring" value="ftelp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column118">
+<entry key="columnName" type="xstring" value="ftenp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column119">
+<entry key="columnName" type="xstring" value="ftoilp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column120">
+<entry key="columnName" type="xstring" value="fvacsp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column121">
+<entry key="columnName" type="xstring" value="fvalp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column122">
+<entry key="columnName" type="xstring" value="fvehp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column123">
+<entry key="columnName" type="xstring" value="fwatp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column124">
+<entry key="columnName" type="xstring" value="fyblp"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column125">
+<entry key="columnName" type="xstring" value="wgtp1"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column126">
+<entry key="columnName" type="xstring" value="wgtp2"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column127">
+<entry key="columnName" type="xstring" value="wgtp3"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column128">
+<entry key="columnName" type="xstring" value="wgtp4"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column129">
+<entry key="columnName" type="xstring" value="wgtp5"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column130">
+<entry key="columnName" type="xstring" value="wgtp6"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column131">
+<entry key="columnName" type="xstring" value="wgtp7"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column132">
+<entry key="columnName" type="xstring" value="wgtp8"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column133">
+<entry key="columnName" type="xstring" value="wgtp9"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column134">
+<entry key="columnName" type="xstring" value="wgtp10"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column135">
+<entry key="columnName" type="xstring" value="wgtp11"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column136">
+<entry key="columnName" type="xstring" value="wgtp12"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column137">
+<entry key="columnName" type="xstring" value="wgtp13"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column138">
+<entry key="columnName" type="xstring" value="wgtp14"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column139">
+<entry key="columnName" type="xstring" value="wgtp15"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column140">
+<entry key="columnName" type="xstring" value="wgtp16"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column141">
+<entry key="columnName" type="xstring" value="wgtp17"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column142">
+<entry key="columnName" type="xstring" value="wgtp18"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column143">
+<entry key="columnName" type="xstring" value="wgtp19"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column144">
+<entry key="columnName" type="xstring" value="wgtp20"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column145">
+<entry key="columnName" type="xstring" value="wgtp21"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column146">
+<entry key="columnName" type="xstring" value="wgtp22"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column147">
+<entry key="columnName" type="xstring" value="wgtp23"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column148">
+<entry key="columnName" type="xstring" value="wgtp24"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column149">
+<entry key="columnName" type="xstring" value="wgtp25"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column150">
+<entry key="columnName" type="xstring" value="wgtp26"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column151">
+<entry key="columnName" type="xstring" value="wgtp27"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column152">
+<entry key="columnName" type="xstring" value="wgtp28"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column153">
+<entry key="columnName" type="xstring" value="wgtp29"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column154">
+<entry key="columnName" type="xstring" value="wgtp30"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column155">
+<entry key="columnName" type="xstring" value="wgtp31"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column156">
+<entry key="columnName" type="xstring" value="wgtp32"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column157">
+<entry key="columnName" type="xstring" value="wgtp33"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column158">
+<entry key="columnName" type="xstring" value="wgtp34"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column159">
+<entry key="columnName" type="xstring" value="wgtp35"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column160">
+<entry key="columnName" type="xstring" value="wgtp36"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column161">
+<entry key="columnName" type="xstring" value="wgtp37"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column162">
+<entry key="columnName" type="xstring" value="wgtp38"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column163">
+<entry key="columnName" type="xstring" value="wgtp39"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column164">
+<entry key="columnName" type="xstring" value="wgtp40"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column165">
+<entry key="columnName" type="xstring" value="wgtp41"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column166">
+<entry key="columnName" type="xstring" value="wgtp42"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column167">
+<entry key="columnName" type="xstring" value="wgtp43"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column168">
+<entry key="columnName" type="xstring" value="wgtp44"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column169">
+<entry key="columnName" type="xstring" value="wgtp45"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column170">
+<entry key="columnName" type="xstring" value="wgtp46"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column171">
+<entry key="columnName" type="xstring" value="wgtp47"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column172">
+<entry key="columnName" type="xstring" value="wgtp48"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column173">
+<entry key="columnName" type="xstring" value="wgtp49"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column174">
+<entry key="columnName" type="xstring" value="wgtp50"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column175">
+<entry key="columnName" type="xstring" value="wgtp51"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column176">
+<entry key="columnName" type="xstring" value="wgtp52"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column177">
+<entry key="columnName" type="xstring" value="wgtp53"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column178">
+<entry key="columnName" type="xstring" value="wgtp54"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column179">
+<entry key="columnName" type="xstring" value="wgtp55"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column180">
+<entry key="columnName" type="xstring" value="wgtp56"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column181">
+<entry key="columnName" type="xstring" value="wgtp57"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column182">
+<entry key="columnName" type="xstring" value="wgtp58"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column183">
+<entry key="columnName" type="xstring" value="wgtp59"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column184">
+<entry key="columnName" type="xstring" value="wgtp60"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column185">
+<entry key="columnName" type="xstring" value="wgtp61"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column186">
+<entry key="columnName" type="xstring" value="wgtp62"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column187">
+<entry key="columnName" type="xstring" value="wgtp63"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column188">
+<entry key="columnName" type="xstring" value="wgtp64"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column189">
+<entry key="columnName" type="xstring" value="wgtp65"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column190">
+<entry key="columnName" type="xstring" value="wgtp66"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column191">
+<entry key="columnName" type="xstring" value="wgtp67"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column192">
+<entry key="columnName" type="xstring" value="wgtp68"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column193">
+<entry key="columnName" type="xstring" value="wgtp69"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column194">
+<entry key="columnName" type="xstring" value="wgtp70"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column195">
+<entry key="columnName" type="xstring" value="wgtp71"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column196">
+<entry key="columnName" type="xstring" value="wgtp72"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column197">
+<entry key="columnName" type="xstring" value="wgtp73"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column198">
+<entry key="columnName" type="xstring" value="wgtp74"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column199">
+<entry key="columnName" type="xstring" value="wgtp75"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column200">
+<entry key="columnName" type="xstring" value="wgtp76"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column201">
+<entry key="columnName" type="xstring" value="wgtp77"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column202">
+<entry key="columnName" type="xstring" value="wgtp78"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column203">
+<entry key="columnName" type="xstring" value="wgtp79"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+<config key="Column204">
+<entry key="columnName" type="xstring" value="wgtp80"/>
+<entry key="sqlType" type="xstring" value="INTEGER"/>
+<entry key="sqlTypeString" type="xstring" value="int"/>
+<entry key="notNull" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="NameBasedKeys"/>
+<config key="KnimeBasedTypeMapping"/>
+<config key="NameBasedTypeMapping"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Create ss13hme table"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="490"/>
+<entry key="y-coordinate" type="xint" value="739"/>
+<entry key="width" type="xint" value="141"/>
+<entry key="height" type="xint" value="19"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.database.node.utility.tablecreator.DBTableCreateNodeFactory"/>
+<entry key="node-name" type="xstring" value="DB Table Creator"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201911301831"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.1.v202002010716"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="DB Table Creator"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

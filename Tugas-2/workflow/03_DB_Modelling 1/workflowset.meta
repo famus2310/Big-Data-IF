@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">ScottFincher</met:element>
+<met:element form="date" read-only="false" name="Creation Date">13/7/2019/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">03_DB_Modelling_Exercise_Solution
+
+Big Data Course DB Exercise #3 Solution
+
+URL: Slides for KNIME Analytics Platform Big Data Course https://www.knime.com/form/material-download-registration
+TAGS: Big Data,Education</met:element>
+</met:KNIMEMetaInfo>

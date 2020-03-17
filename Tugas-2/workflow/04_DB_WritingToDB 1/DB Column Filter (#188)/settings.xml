@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="selected_columns">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="211"/>
+<entry key="0" type="xstring" value="serialno"/>
+<entry key="1" type="xstring" value="rt"/>
+<entry key="2" type="xstring" value="sporder"/>
+<entry key="3" type="xstring" value="st"/>
+<entry key="4" type="xstring" value="adjinc"/>
+<entry key="5" type="xstring" value="agep"/>
+<entry key="6" type="xstring" value="cit"/>
+<entry key="7" type="xstring" value="citwp05"/>
+<entry key="8" type="xstring" value="citwp12"/>
+<entry key="9" type="xstring" value="ddrs"/>
+<entry key="10" type="xstring" value="dear"/>
+<entry key="11" type="xstring" value="deye"/>
+<entry key="12" type="xstring" value="dout"/>
+<entry key="13" type="xstring" value="dphy"/>
+<entry key="14" type="xstring" value="drat"/>
+<entry key="15" type="xstring" value="dratx"/>
+<entry key="16" type="xstring" value="drem"/>
+<entry key="17" type="xstring" value="eng"/>
+<entry key="18" type="xstring" value="fer"/>
+<entry key="19" type="xstring" value="gcl"/>
+<entry key="20" type="xstring" value="gcm"/>
+<entry key="21" type="xstring" value="gcr"/>
+<entry key="22" type="xstring" value="hins1"/>
+<entry key="23" type="xstring" value="hins2"/>
+<entry key="24" type="xstring" value="hins3"/>
+<entry key="25" type="xstring" value="hins4"/>
+<entry key="26" type="xstring" value="hins5"/>
+<entry key="27" type="xstring" value="hins6"/>
+<entry key="28" type="xstring" value="hins7"/>
+<entry key="29" type="xstring" value="intp"/>
+<entry key="30" type="xstring" value="jwmnp"/>
+<entry key="31" type="xstring" value="jwrip"/>
+<entry key="32" type="xstring" value="jwtr"/>
+<entry key="33" type="xstring" value="lanx"/>
+<entry key="34" type="xstring" value="mar"/>
+<entry key="35" type="xstring" value="marhd"/>
+<entry key="36" type="xstring" value="marhm"/>
+<entry key="37" type="xstring" value="marht"/>
+<entry key="38" type="xstring" value="marhw"/>
+<entry key="39" type="xstring" value="marhyp05"/>
+<entry key="40" type="xstring" value="marhyp12"/>
+<entry key="41" type="xstring" value="mig"/>
+<entry key="42" type="xstring" value="mil"/>
+<entry key="43" type="xstring" value="mlpa"/>
+<entry key="44" type="xstring" value="mlpb"/>
+<entry key="45" type="xstring" value="mlpcd"/>
+<entry key="46" type="xstring" value="mlpe"/>
+<entry key="47" type="xstring" value="mlpfg"/>
+<entry key="48" type="xstring" value="mlph"/>
+<entry key="49" type="xstring" value="mlpi"/>
+<entry key="50" type="xstring" value="mlpj"/>
+<entry key="51" type="xstring" value="mlpk"/>
+<entry key="52" type="xstring" value="nwab"/>
+<entry key="53" type="xstring" value="nwav"/>
+<entry key="54" type="xstring" value="nwla"/>
+<entry key="55" type="xstring" value="nwlk"/>
+<entry key="56" type="xstring" value="nwre"/>
+<entry key="57" type="xstring" value="oip"/>
+<entry key="58" type="xstring" value="pap"/>
+<entry key="59" type="xstring" value="relp"/>
+<entry key="60" type="xstring" value="retp"/>
+<entry key="61" type="xstring" value="sch"/>
+<entry key="62" type="xstring" value="schg"/>
+<entry key="63" type="xstring" value="schl"/>
+<entry key="64" type="xstring" value="semp"/>
+<entry key="65" type="xstring" value="sex"/>
+<entry key="66" type="xstring" value="ssip"/>
+<entry key="67" type="xstring" value="ssp"/>
+<entry key="68" type="xstring" value="wagp"/>
+<entry key="69" type="xstring" value="wkhp"/>
+<entry key="70" type="xstring" value="wkl"/>
+<entry key="71" type="xstring" value="wkw"/>
+<entry key="72" type="xstring" value="wrk"/>
+<entry key="73" type="xstring" value="yoep05"/>
+<entry key="74" type="xstring" value="yoep12"/>
+<entry key="75" type="xstring" value="anc"/>
+<entry key="76" type="xstring" value="anc1p05"/>
+<entry key="77" type="xstring" value="anc1p12"/>
+<entry key="78" type="xstring" value="anc2p05"/>
+<entry key="79" type="xstring" value="anc2p12"/>
+<entry key="80" type="xstring" value="decade"/>
+<entry key="81" type="xstring" value="dis"/>
+<entry key="82" type="xstring" value="drivesp"/>
+<entry key="83" type="xstring" value="esp"/>
+<entry key="84" type="xstring" value="esr"/>
+<entry key="85" type="xstring" value="fod1p"/>
+<entry key="86" type="xstring" value="fod2p"/>
+<entry key="87" type="xstring" value="hicov"/>
+<entry key="88" type="xstring" value="hisp"/>
+<entry key="89" type="xstring" value="indp"/>
+<entry key="90" type="xstring" value="jwap"/>
+<entry key="91" type="xstring" value="jwdp"/>
+<entry key="92" type="xstring" value="lanp05"/>
+<entry key="93" type="xstring" value="lanp12"/>
+<entry key="94" type="xstring" value="migpuma00"/>
+<entry key="95" type="xstring" value="migpuma10"/>
+<entry key="96" type="xstring" value="migsp05"/>
+<entry key="97" type="xstring" value="migsp12"/>
+<entry key="98" type="xstring" value="msp"/>
+<entry key="99" type="xstring" value="naicsp"/>
+<entry key="100" type="xstring" value="nativity"/>
+<entry key="101" type="xstring" value="nop"/>
+<entry key="102" type="xstring" value="oc"/>
+<entry key="103" type="xstring" value="occp02"/>
+<entry key="104" type="xstring" value="occp10"/>
+<entry key="105" type="xstring" value="occp12"/>
+<entry key="106" type="xstring" value="paoc"/>
+<entry key="107" type="xstring" value="pernp"/>
+<entry key="108" type="xstring" value="pincp"/>
+<entry key="109" type="xstring" value="pobp05"/>
+<entry key="110" type="xstring" value="pobp12"/>
+<entry key="111" type="xstring" value="povpip"/>
+<entry key="112" type="xstring" value="powpuma00"/>
+<entry key="113" type="xstring" value="powpuma10"/>
+<entry key="114" type="xstring" value="powsp05"/>
+<entry key="115" type="xstring" value="powsp12"/>
+<entry key="116" type="xstring" value="privcov"/>
+<entry key="117" type="xstring" value="pubcov"/>
+<entry key="118" type="xstring" value="qtrbir"/>
+<entry key="119" type="xstring" value="rac1p"/>
+<entry key="120" type="xstring" value="rac2p05"/>
+<entry key="121" type="xstring" value="rac2p12"/>
+<entry key="122" type="xstring" value="rac3p05"/>
+<entry key="123" type="xstring" value="rac3p12"/>
+<entry key="124" type="xstring" value="racaian"/>
+<entry key="125" type="xstring" value="racasn"/>
+<entry key="126" type="xstring" value="racblk"/>
+<entry key="127" type="xstring" value="racnhpi"/>
+<entry key="128" type="xstring" value="racnum"/>
+<entry key="129" type="xstring" value="racsor"/>
+<entry key="130" type="xstring" value="racwht"/>
+<entry key="131" type="xstring" value="rc"/>
+<entry key="132" type="xstring" value="sciengp"/>
+<entry key="133" type="xstring" value="sciengrlp"/>
+<entry key="134" type="xstring" value="sfn"/>
+<entry key="135" type="xstring" value="sfr"/>
+<entry key="136" type="xstring" value="socp00"/>
+<entry key="137" type="xstring" value="socp10"/>
+<entry key="138" type="xstring" value="socp12"/>
+<entry key="139" type="xstring" value="vps"/>
+<entry key="140" type="xstring" value="waob"/>
+<entry key="141" type="xstring" value="fagep"/>
+<entry key="142" type="xstring" value="fancp"/>
+<entry key="143" type="xstring" value="fcitp"/>
+<entry key="144" type="xstring" value="fcitwp"/>
+<entry key="145" type="xstring" value="fcowp"/>
+<entry key="146" type="xstring" value="fddrsp"/>
+<entry key="147" type="xstring" value="fdearp"/>
+<entry key="148" type="xstring" value="fdeyep"/>
+<entry key="149" type="xstring" value="fdoutp"/>
+<entry key="150" type="xstring" value="fdphyp"/>
+<entry key="151" type="xstring" value="fdratp"/>
+<entry key="152" type="xstring" value="fdratxp"/>
+<entry key="153" type="xstring" value="fdremp"/>
+<entry key="154" type="xstring" value="fengp"/>
+<entry key="155" type="xstring" value="fesrp"/>
+<entry key="156" type="xstring" value="fferp"/>
+<entry key="157" type="xstring" value="ffodp"/>
+<entry key="158" type="xstring" value="fgclp"/>
+<entry key="159" type="xstring" value="fgcmp"/>
+<entry key="160" type="xstring" value="fgcrp"/>
+<entry key="161" type="xstring" value="fhins1p"/>
+<entry key="162" type="xstring" value="fhins2p"/>
+<entry key="163" type="xstring" value="fhins3c"/>
+<entry key="164" type="xstring" value="fhins3p"/>
+<entry key="165" type="xstring" value="fhins4c"/>
+<entry key="166" type="xstring" value="fhins4p"/>
+<entry key="167" type="xstring" value="fhins5c"/>
+<entry key="168" type="xstring" value="fhins5p"/>
+<entry key="169" type="xstring" value="fhins6p"/>
+<entry key="170" type="xstring" value="fhins7p"/>
+<entry key="171" type="xstring" value="fhisp"/>
+<entry key="172" type="xstring" value="findp"/>
+<entry key="173" type="xstring" value="fintp"/>
+<entry key="174" type="xstring" value="fjwdp"/>
+<entry key="175" type="xstring" value="fjwmnp"/>
+<entry key="176" type="xstring" value="fjwrip"/>
+<entry key="177" type="xstring" value="fjwtrp"/>
+<entry key="178" type="xstring" value="flanp"/>
+<entry key="179" type="xstring" value="flanxp"/>
+<entry key="180" type="xstring" value="fmarhdp"/>
+<entry key="181" type="xstring" value="fmarhmp"/>
+<entry key="182" type="xstring" value="fmarhtp"/>
+<entry key="183" type="xstring" value="fmarhwp"/>
+<entry key="184" type="xstring" value="fmarhyp"/>
+<entry key="185" type="xstring" value="fmarp"/>
+<entry key="186" type="xstring" value="fmigp"/>
+<entry key="187" type="xstring" value="fmigsp"/>
+<entry key="188" type="xstring" value="fmilpp"/>
+<entry key="189" type="xstring" value="fmilsp"/>
+<entry key="190" type="xstring" value="foccp"/>
+<entry key="191" type="xstring" value="foip"/>
+<entry key="192" type="xstring" value="fpap"/>
+<entry key="193" type="xstring" value="fpobp"/>
+<entry key="194" type="xstring" value="fpowsp"/>
+<entry key="195" type="xstring" value="fracp"/>
+<entry key="196" type="xstring" value="frelp"/>
+<entry key="197" type="xstring" value="fretp"/>
+<entry key="198" type="xstring" value="fschgp"/>
+<entry key="199" type="xstring" value="fschlp"/>
+<entry key="200" type="xstring" value="fschp"/>
+<entry key="201" type="xstring" value="fsemp"/>
+<entry key="202" type="xstring" value="fsexp"/>
+<entry key="203" type="xstring" value="fssip"/>
+<entry key="204" type="xstring" value="fssp"/>
+<entry key="205" type="xstring" value="fwagp"/>
+<entry key="206" type="xstring" value="fwkhp"/>
+<entry key="207" type="xstring" value="fwklp"/>
+<entry key="208" type="xstring" value="fwkwp"/>
+<entry key="209" type="xstring" value="fwrkp"/>
+<entry key="210" type="xstring" value="fyoep"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="cow"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="remove COW"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="613"/>
+<entry key="y-coordinate" type="xint" value="590"/>
+<entry key="width" type="xint" value="134"/>
+<entry key="height" type="xint" value="19"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.database.node.manipulation.filter.column.DBFilterColumnNodeFactory"/>
+<entry key="node-name" type="xstring" value="DB Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201911301831"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.1.v202002010716"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="DB Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
+<entry key="port_object_summary" type="xstring" value="SQLite 5176da1a-d1d4-47c5-bc2f-9fe26fecf8ef"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="895dbe93-7dd9-49e0-a477-9cdbf57635c9"/>
+</config>
+</config>
