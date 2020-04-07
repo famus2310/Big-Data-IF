@@ -21,26 +21,24 @@ Dataset didapatkan dari [MovieLens](https://grouplens.org/datasets/movielens/) y
 
 ## Data Preparation
 
-Data yang didapatkan dari movielens sudah sesuai format nya dengan workflow sehingga hanya perlu mengganti file path menuju file movies.csv
+1. Data yang didapatkan dari movielens sudah sesuai format nya dengan workflow sehingga hanya perlu mengganti file path menuju file movies.csv
 ![File Reading](img/movie_list.png)
-Begitu juga pada node CSV to Spark, hanya perlu mengganti source path menuju file rating.csv
+2. Begitu juga pada node CSV to Spark, hanya perlu mengganti source path menuju file rating.csv
 ![File Reading](img/file_rating.png)
-Rate movie pada node "Ask User for Movie Rating".
+3. Rate movie pada node "Ask User for Movie Rating".
 ![Rate Movie](img/rate_movie.png)
 Pada node Top 20 Recommendation browse source path menuju file movie.csv
 
 ## Modeling
 
-Kita perlu mengunduh [Workflow](https://hub.knime.com/knime/spaces/Examples/latest/10_Big_Data/02_Spark_Executor/10_Recommendation_Engine_w_Spark_Collaborative_Filtering)nya terlebih dahulu.
+1. Perlu mengunduh [Workflow](https://hub.knime.com/knime/spaces/Examples/latest/10_Big_Data/02_Spark_Executor/10_Recommendation_Engine_w_Spark_Collaborative_Filtering)nya terlebih dahulu.
 ![Workflow](img/workflow.png)
 
 ## Deployment
 
-Untuk melihat ketelitian cukup melakukan view pada node Numeric Scorer
-
+1. Untuk melihat ketelitian cukup melakukan view pada node Numeric Scorer
 ![error](img/error.png)
-
-Untuk melihat hasil rekomendasi cukup view pada node Display Recommendation
+2. Untuk melihat hasil rekomendasi cukup view pada node Display Recommendation
 ![recommend](img/rec.png)
 
 ## Compare Study
