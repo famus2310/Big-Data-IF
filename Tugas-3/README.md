@@ -1,4 +1,4 @@
-# Tugas 2
+# Tugas 3
 
 Fadhil Musaad
 
@@ -26,7 +26,7 @@ Data yang didapatkan dari movielens sudah sesuai format nya dengan workflow sehi
 Begitu juga pada node CSV to Spark, hanya perlu mengganti source path menuju file rating.csv
 ![File Reading](img/file_rating.png)
 Rate movie pada node "Ask User for Movie Rating".
-![Rate Movie](ing/rate_movie.png)
+![Rate Movie](img/rate_movie.png)
 Pada node Top 20 Recommendation browse source path menuju file movie.csv
 
 ## Modeling
@@ -37,7 +37,9 @@ Kita perlu mengunduh [Workflow](https://hub.knime.com/knime/spaces/Examples/late
 ## Deployment
 
 Untuk melihat ketelitian cukup melakukan view pada node Numeric Scorer
+
 ![error](img/error.png)
+
 Untuk melihat hasil rekomendasi cukup view pada node Display Recommendation
 ![recommend](img/rec.png)
 
