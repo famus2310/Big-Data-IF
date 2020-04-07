@@ -22,6 +22,7 @@ Dataset didapatkan dari [MovieLens](https://grouplens.org/datasets/movielens/) y
 ## Data Preparation
 
 1. Data yang didapatkan dari movielens sudah sesuai format nya dengan workflow sehingga hanya perlu mengganti file path menuju file movies.csv
+
 ![File Reading](img/movie_list.png)
 2. Begitu juga pada node CSV to Spark, hanya perlu mengganti source path menuju file rating.csv
 ![File Reading](img/file_rating.png)
@@ -37,6 +38,7 @@ Pada node Top 20 Recommendation browse source path menuju file movie.csv
 ## Deployment
 
 1. Untuk melihat ketelitian cukup melakukan view pada node Numeric Scorer
+
 ![error](img/error.png)
 2. Untuk melihat hasil rekomendasi cukup view pada node Display Recommendation
 ![recommend](img/rec.png)
