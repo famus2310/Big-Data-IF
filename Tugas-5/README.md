@@ -29,7 +29,6 @@
 2. Bandingkan Completed Applications pada web browser ![parameter](img/compare.png)
 Untuk 10 Partisi:
 ![10](img/10.png)
-
 Untuk 1000 Partisi:
 ![1000](img/1000.png)
 
