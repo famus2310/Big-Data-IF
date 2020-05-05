@@ -43,6 +43,7 @@ Untuk 1000 Partisi:
 8. ![8](img/8.png)
 
 ### Tabel Keterangan Percobaan
+Nilai PI: 3.141592
 | # | Worker | CPU / Worker | Partition | Pi Value |  Time  | Absolute Error |
 |:-:|:------:|:------------:|:---------:|:--------:|:------:|:--------------:|
 | 1 |    2   |       2      |    100    | 3.140480 |   18s  |    0.001112    |
@@ -53,3 +54,9 @@ Untuk 1000 Partisi:
 | 6 |    5   |       2      |    1000   | 3.142581 | 1.9min |    0.000989    |
 | 7 |    5   |       4      |    100    | 3.139816 |   25s  |    0.001776    |
 | 8 |    5   |       4      |    1000   | 3.141724 | 1.9min |    0.000132    |
+
+### Kesimpulan
+Dapat dilihat bahwa penambahan worker menambah waktu pekerjaan, tetapi mengurangi error pada hasil.
+Jumlah CPU dapat mengurangi waktu pengerjaan.
+Jumlah Partisi dapat mengurangi error hasil.
+Sehingga dapat dilihat pada percobaan ke-8, absolute error nya memiliki nilai paling kecil diantara semua percobaan. Akan tetapi, waktu pengerjaannya relatif lama karena banyak worker yang digunakan serta partisinya relatif lebih banyak.
