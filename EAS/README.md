@@ -2,6 +2,6 @@
 
 # Task
 * Daily Minimum Temperature: DONE!
-* Electric Production: Not Yet.
+* Electric Production: DONE!
 * Monthly Beer Production: Not Yet.
 * Sales of Shampoo: Not Yet.

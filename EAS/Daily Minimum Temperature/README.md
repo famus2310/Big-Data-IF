@@ -64,6 +64,9 @@ Sebelum melakukan modeling, perlu dilakukan evaluasi data floating point yang me
 * Pada node setelah Denormalizer data dioutputkan menjadi 2 bentuk yaitu visualisasi dan data table yang diteruskan ke general workflow
 * Selanjutnya, data output tadi dimasukkan kembali ke Local Big Data Environment menggunakan 2 node, yaitu Spark to Hive untuk load menjadi Apache Hive dan Spark to Parquet untuk load menjadi HDFS
 
+### Workflow
+![Workflow](img/workflow.png)
+
 ## Deployment
 ### Interactive View
 Untuk mengakses interactive view, cukup melakukan klik kanan pada component PCA, K-Means, Plot Scatter dan pilih Interactive View. Hasilnya sebagai berikut<br/>
