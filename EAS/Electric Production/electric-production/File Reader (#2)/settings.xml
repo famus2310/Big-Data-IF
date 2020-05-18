@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="DataURL" type="xstring" value="file:/home/famus/Documents/Big-Data-IF/EAS/Daily%20Minimum%20Temperature/daily-minimum-temperatures-in-me.csv"/>
+<entry key="DataURL" type="xstring" value="file:/home/famus/Documents/Big-Data-IF/EAS/Electric%20Production/Electric_Production.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
 <entry key="pattern" type="xstring" value="%%00010"/>

@@ -12,7 +12,7 @@ Data ini berupa data temperature terendah dalam jangka waktu tertentu yang didal
 
 Data ini memiliki 2 kolom yang berisi:
 1. Date - Berupa string yang berisi informasi waktu record
-2. Daily Minimum Temperature - Berupa floating point yang berisi informasi temperature terendah pada Date yang bersesuaian 
+2. IPG2211A2N - Berupa floating point yang berisi informasi penjuala pada Date yang bersesuaian 
 
 ## Data Preparation
 
