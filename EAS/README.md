@@ -4,4 +4,4 @@
 * Daily Minimum Temperature: DONE!
 * Electric Production: DONE!
 * Monthly Beer Production: DONE!
-* Sales of Shampoo: Not Yet.
+* Sales of Shampoo: DONE!

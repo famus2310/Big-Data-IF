@@ -24,7 +24,7 @@ Sebelum melakukan modeling, perlu dilakukan evaluasi data floating point yang me
 - Unduh [Workflow Time-Series](https://hub.knime.com/knime/spaces/Examples/latest/10_Big_Data/02_Spark_Executor/09_Big_Data_Irish_Meter_on_Spark_only)-nya terlebih dahulu
 
 * Pertama-tama data akan dibaca oleh node File Reader, arahkan path ke csv yang tertera
-* Pada file reader, ubah nama kolom Date menjadi enc_datetime dan kolom Daily Minimum Temperature menjadi reading agar sesuai dengan workflow yang telah diunduh<br/>
+* Pada file reader, ubah nama kolom Date menjadi enc_datetime dan kolom IPG2211A2N menjadi reading agar sesuai dengan workflow yang telah diunduh<br/>
 ![File Reader](img/filereader.png)
 * Lalu kita menyiapkan Local Big Data Environment-nya
 * Masukkan data dari File Reader ke metanode Load Data

@@ -1,4 +1,4 @@
-# Monthly Beer Production
+# Sales of Shampoo
 
 Fadhil Musaad
 
@@ -6,13 +6,13 @@ Fadhil Musaad
 
 ## Business Understanding
 
-Data ini berupa data produksi beer bulanan dalam jangka waktu tertentu yang didalamnya terdapat informasi sehingga dapat dilakukan peng-cluster-an dengan tujuan memberikan informasi yang berguna.
+Data ini berupa data penjualan shampoo dalam 3 tahun terakhir dalam jangka waktu tertentu yang didalamnya terdapat informasi sehingga dapat dilakukan peng-cluster-an dengan tujuan memberikan informasi yang berguna.
 
 ## Data Understanding
 
 Data ini memiliki 2 kolom yang berisi:
 1. Date - Berupa string yang berisi informasi waktu record
-2. Monthly Beer Production - Berupa floating point yang berisi informasi penjualan beer pada Date yang bersesuaian 
+2. Monthly Beer Production - Berupa floating point yang berisi informasi penjualan shampoo pada Date yang bersesuaian 
 
 ## Data Preparation
 
@@ -24,7 +24,7 @@ Sebelum melakukan modeling, perlu dilakukan evaluasi data floating point yang me
 - Unduh [Workflow Time-Series](https://hub.knime.com/knime/spaces/Examples/latest/10_Big_Data/02_Spark_Executor/09_Big_Data_Irish_Meter_on_Spark_only)-nya terlebih dahulu
 
 * Pertama-tama data akan dibaca oleh node File Reader, arahkan path ke csv yang tertera
-* Pada file reader, ubah nama kolom Date menjadi enc_datetime dan kolom Daily Minimum Temperature menjadi reading agar sesuai dengan workflow yang telah diunduh<br/>
+* Pada file reader, ubah nama kolom Date menjadi enc_datetime dan kolom Monthly Beer Production menjadi reading agar sesuai dengan workflow yang telah diunduh<br/>
 ![File Reader](img/filereader.png)
 * Lalu kita menyiapkan Local Big Data Environment-nya
 * Masukkan data dari File Reader ke metanode Load Data
